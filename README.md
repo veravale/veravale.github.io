@@ -4,7 +4,8 @@ Static GitHub Pages-ready site for a fictional intimacy consultant.
 
 ## Files
 
-- `index.html` - homepage with recent journal previews
+- `index.html` - homepage with recent article and journal previews
+- `articles/` - paginated reading room with long-form essays
 - `journal/` - paginated personal journal archive with long-form posts
 - `styles.css` - responsive styling
 - `script.js` - mailto booking helper
