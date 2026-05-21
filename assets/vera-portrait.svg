@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" role="img" aria-labelledby="title desc">
+  <title id="title">Editorial portrait illustration</title>
+  <desc id="desc">A suggestive but non-explicit editorial illustration of a woman in a dark studio.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#2b2028"/>
+      <stop offset=".48" stop-color="#8e5f5c"/>
+      <stop offset="1" stop-color="#eadbd0"/>
+    </linearGradient>
+    <radialGradient id="lamp" cx=".46" cy=".18" r=".68">
+      <stop offset="0" stop-color="#fff0d7" stop-opacity=".85"/>
+      <stop offset=".38" stop-color="#d8a37c" stop-opacity=".32"/>
+      <stop offset="1" stop-color="#211923" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="dress" x1=".25" x2=".8" y1=".2" y2="1">
+      <stop offset="0" stop-color="#1b1620"/>
+      <stop offset=".65" stop-color="#3e2230"/>
+      <stop offset="1" stop-color="#120f15"/>
+    </linearGradient>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer>
+        <feFuncA type="table" tableValues="0 .08"/>
+      </feComponentTransfer>
+      <feBlend mode="overlay" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <rect width="900" height="1200" fill="url(#bg)"/>
+  <rect width="900" height="1200" fill="url(#lamp)"/>
+  <g opacity=".28">
+    <path d="M90 186c132 34 258 29 377-18 118-47 223-47 316 0v86c-112-42-217-39-314 10-121 61-247 70-379 28z" fill="#fff0d7"/>
+    <path d="M54 884c138-62 283-72 436-31 152 40 270 25 354-48v128c-96 67-214 79-354 36-154-48-299-34-436 40z" fill="#2d2029"/>
+  </g>
+  <g transform="translate(110 90)">
+    <path d="M384 164c70 0 132 35 166 91 19 32 25 68 23 105-5 86-74 154-186 154-111 0-184-67-189-153-4-73 27-135 84-171 29-18 64-26 102-26z" fill="#241b22"/>
+    <path d="M257 335c-23-75 4-157 70-196 52-31 119-24 168 8 54 35 82 97 71 166-18-66-51-105-98-116-37-9-75 3-114 34-39 30-72 64-97 104z" fill="#120e13"/>
+    <path d="M346 246c60-18 126 16 145 75 20 61-7 132-63 162-53 29-120 6-154-49-39-64 2-168 72-188z" fill="#c78d77"/>
+    <path d="M296 403c-23 46-46 101-68 166l281 1c-23-70-47-125-72-165-35 25-86 32-141-2z" fill="#b87a68"/>
+    <path d="M187 552c69-42 137-63 204-63 79 0 146 26 203 78 55 51 93 126 114 225 19 92 34 177 44 255H91c12-135 36-244 72-327 7-16 15-31 24-45z" fill="url(#dress)"/>
+    <path d="M254 558c26 72 70 117 132 135 54-20 92-65 114-135 24 28 44 68 62 119-35 88-92 151-171 188-93-41-157-106-194-196 14-43 33-80 57-111z" fill="#5f2637" opacity=".8"/>
+    <path d="M112 756c58-40 106-48 145-23 41 27 66 82 76 166l-115 147H63c7-118 23-214 49-290z" fill="#18131a"/>
+    <path d="M596 734c54-20 97-11 128 27 23 78 39 172 47 285H616L507 892c11-77 41-130 89-158z" fill="#18131a"/>
+    <path d="M313 319c36 12 73 9 112-9 7 13 9 28 5 43-39 13-79 13-120 0-4-13-3-25 3-34z" fill="#261a1f"/>
+    <path d="M341 421c42 26 82 27 121 2-17 47-40 74-69 80-26-6-43-33-52-82z" fill="#8f4c52" opacity=".65"/>
+    <path d="M335 291c11-8 27-9 45-2M443 289c16-8 31-7 45 3" fill="none" stroke="#3a2528" stroke-width="8" stroke-linecap="round"/>
+    <path d="M408 304c-8 36-13 62-15 79 12 5 25 5 39 0" fill="none" stroke="#9f6759" stroke-width="8" stroke-linecap="round"/>
+    <path d="M370 402c31 14 59 14 85 0" fill="none" stroke="#5a222b" stroke-width="8" stroke-linecap="round"/>
+    <path d="M271 234c-63 68-83 161-60 279 13 65 5 128-25 189 86-40 137-99 154-177 14-67 3-158-33-273z" fill="#151017"/>
+    <path d="M520 220c81 65 112 150 92 256-12 66 7 137 58 214-96-33-155-90-176-171-17-65-3-154 42-267z" fill="#151017"/>
+  </g>
+  <g filter="url(#grain)">
+    <rect width="900" height="1200" fill="transparent"/>
+  </g>
+</svg>
