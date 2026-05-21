@@ -8,7 +8,7 @@ compose?.addEventListener("click", () => {
   const data = new FormData(form);
   const name = data.get("name") || "Anonymous";
   const email = data.get("email") || "";
-  const session = data.get("session") || "Orientation";
+  const session = data.get("session") || "Threshold Reply";
   const note = data.get("note") || "";
 
   const subject = encodeURIComponent(`Private consultation inquiry: ${session}`);

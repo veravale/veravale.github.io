@@ -12,6 +12,14 @@ Static GitHub Pages-ready site for a fictional intimacy consultant.
 - `assets/vera-portrait.svg` - local hero artwork
 - `.github/workflows/pages.yml` - GitHub Pages deployment workflow
 
+## Current Session Ladder
+
+- Ember / Threshold Reply: `$15 / brief reply`
+- Warm / First Confession: `$85 / 25 min`
+- Velvet / Jealousy & Devotion: `$225 / 65 min`
+- Red / The Mistress Lens: `$395 / 90 min`
+- Private / Couple Intensive: `$880 / 2 weeks`
+
 ## Publish on GitHub Pages
 
 1. Create a new GitHub repository.
